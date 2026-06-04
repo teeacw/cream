@@ -1,3 +1,12 @@
 <html>
-<body> i love u </body>
+<body>
+    <button onclick="cream()">click me</button>
+
+    <script>
+        function cream {
+            document.getElementById("title").innerText = "i love u!";
+        }
+    </script>
+</body>
+
 </html>
